@@ -9,14 +9,11 @@ class Dog
 
 end
 
-class Person
-    def talk
-        puts "Hello World!"
-    end
+fido = Dog.new
+fido.bark
 
-    def walk
-        puts "The Person is walking"
-    end
 
-    
-end
+snoppy = Dog.new
+snoppy.bark
+
+
